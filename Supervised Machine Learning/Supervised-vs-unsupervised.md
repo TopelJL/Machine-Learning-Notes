@@ -117,7 +117,7 @@
 - You dont tell the algorithm specific details, automatically find structure and types of individuals.
 
 ### Linear Regresssion
-
+**See Modelrepresentation.py for code**
 *Fitting a straight line to your data*
 
 - Most concepts you see here, apply to more advanced problems.
@@ -132,3 +132,15 @@
 - m = Total number of training examples
 - (x,y) = single training example
 - (x(i), y(i)) = I(th) training example
+- f = model
+- y^ = prediction, estimated y
+- a = scalar, non bold
+- *a* = vector, bold
+- w = parameter: weight
+- b = parameter: bias
+
+**How to represent f**
+
+- Slope formula
+- f_w,b = wx+b
+    - also known as f(x)

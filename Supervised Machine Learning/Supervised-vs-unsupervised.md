@@ -144,3 +144,18 @@
 - Slope formula
 - f_w,b = wx+b
     - also known as f(x)
+
+### Cost Function
+
+- (w,b) = parameters, coefficiencents, weights
+    - Parameters = Variables in training you adjust in order to improve the model
+- Choose values for (w,b) that fits our data best so our prediction(y^) is close to our target(y)
+    - to find the values for (w,b) we use a cost function
+- Cost Function
+    - (y^(i) - y(i)) = error, how far our prediction is from our target.
+    - The formula below is the formula we use to calculate the cost function for the data set
+    - j(w,b) = ((E(y^(i)-y(i))^2)/2*m)
+    **The whole purpose is to adjust the values of w (weight) and b (bias) to get a smaller j value (cost function).**
+
+*See OneNote Link In ReadMe for Practice Problems*
+- I recommend at least looking at/working through a few problems.

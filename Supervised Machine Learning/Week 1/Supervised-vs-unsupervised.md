@@ -4,6 +4,16 @@
 
 ## Week 1
 
+**Learning objectives**
+- Define Machine Learning
+- Define Supervised Learning
+- Define Unsupervised Learning
+- Write and run Python code
+- Define a regression model
+- Implement and visualize a cost function
+- Implement gradient descent
+- Optimize a regression model using gradient descent
+
 ### What is machine Learning?
 
 - Machine Learning -
@@ -165,6 +175,7 @@
 
 ### Gradient Descent
 
+*See gradientdescent.py for code implementation*
 **Used to train some of the most advanced neural network models today (deep learning models)**
 
 - Algorithm you can use to minimize any function.

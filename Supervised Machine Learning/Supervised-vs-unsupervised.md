@@ -147,6 +147,8 @@
 
 ### Cost Function
 
+**See Costfunction.py for code implementation of cost function for linear regression**
+
 - (w,b) = parameters, coefficiencents, weights
     - Parameters = Variables in training you adjust in order to improve the model
 - Choose values for (w,b) that fits our data best so our prediction(y^) is close to our target(y)
@@ -155,7 +157,23 @@
     - (y^(i) - y(i)) = error, how far our prediction is from our target.
     - The formula below is the formula we use to calculate the cost function for the data set
     - j(w,b) = ((E(y^(i)-y(i))^2)/2*m)
-    **The whole purpose is to adjust the values of w (weight) and b (bias) to get a smaller j value (cost function).**
+
+**The whole purpose is to adjust the values of w (weight) and b (bias) to get a smaller j value (cost function).**
 
 *See OneNote Link In ReadMe for Practice Problems*
 - I recommend at least looking at/working through a few problems.
+
+### Gradient Descent
+
+**Used to train some of the most advanced neural network models today (deep learning models)**
+
+- Algorithm you can use to minimize any function.
+
+#### Linear Regression
+
+- Steps
+    - Start with some (w, b) # Set w = 0, b = 0 initially
+    - Keep changing (w, b) to reduce j(w, b) until we settle at or near a minimum
+
+*Type of cost function you may get when training a neural network model*
+![Alt text](image.png)

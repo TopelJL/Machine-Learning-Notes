@@ -176,6 +176,6 @@
     - Keep changing (w, b) to reduce j(w, b) until we settle at or near a minimum.
 
 *Type of cost function you may get when training a neural network model*
-- ![Alt text](image.png)
+- ![Alt text](image-2.png)
 - Gradient descent algorithm looks at which direction to go to get to the lowest point in the graph.
     - It goes in the direction of steepest descent, it looks around 360 degrees and decides where to go next after each step so we will get to the lowest local minimum.

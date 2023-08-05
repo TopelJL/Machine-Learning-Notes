@@ -156,7 +156,7 @@
 - Cost Function
     - (y^(i) - y(i)) = error, how far our prediction is from our target.
     - The formula below is the formula we use to calculate the cost function for the data set
-    - j(w,b) = ((E(y^(i)-y(i))^2)/2*m)
+    - ![Alt text](image-1.png)
 
 **The whole purpose is to adjust the values of w (weight) and b (bias) to get a smaller j value (cost function).**
 

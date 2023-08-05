@@ -182,4 +182,41 @@
 
 #### Gradient Descent Algorithm
 
-- Check One Note for Gradient Descent Algorithm.
+- Check One Note for more info on the Gradient Descent Algorithm.
+- ![Alt text](image-3.png)
+- Variables:
+    - w = weight
+    - α = learning rate
+    - δ/δ(w or b) = derivative
+
+**Intuition of Gradient Descent**
+
+- Derivative
+    - Tangent line to the point of the cost function
+    - Increases or decreases w, hence always decreasing the value of J
+    - ![Alt text](image-4.png)
+
+**Learning rate (α)**
+
+- If Learning rate is too small
+    - You take a very small babystep, it becomes incredibly slow.
+    - It will work, but it takes too long.
+- If Learning rate is too large
+    - It can go past the minimum, which sometimes can make the cost increase.
+    - Can overshoot, and may never reach the minimum. Fail to converge or can diverge.
+    - ![Alt text](image-5.png)
+- If you get to a local minimum, gradient descent does not decrease the cost function j(w,b) any further
+    - ![Alt text](image-6.png)
+
+**Gradient Descent for Linear Regression**
+
+- ![Alt text](image-7.png)
+- Check OneNote for math behind getting derivatives with respect to w and b
+- When Using the squared error cost function, there is only one minimum., hence Global minimum.
+- ![Alt text](image-8.png)
+
+
+*Running Gradient Descent*
+
+- ![Alt text](image-9.png)
+- Batch: Each step of gradient descent uses all the training examples

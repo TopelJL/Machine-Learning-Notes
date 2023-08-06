@@ -3,8 +3,8 @@
 - Multiple Linear Regression.
 - Gradient Descent in practice.
 **See Python files to understand machine learning code**
-
 ## Multiple Linear Regression
+*See Vectorization.py for code*
 - Linear Regression with multiple features
 #### Multiple features
 - x_j = jth feature.
@@ -27,3 +27,12 @@
         - one line of code, and is much faster
     - ![Alt text](image-4.png)
 #### Vectorization Part 2
+*How Vectorization works*
+- ![Alt text](image-5.png)
+- Computer gets all values of vectors w and x, and in a single step multiplies each pair in parallel.
+- Takes the numbers to add them all together efficiently.
+- Can perform code with vectorization much faster, very beneficial to large models.
+
+**Example**
+- Vectors W and d.
+- W = W - (0.1) * d

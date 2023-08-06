@@ -1,8 +1,8 @@
 # Regression with multiple input variables
+**See Python files to understand machine learning code**
 **Topics covered in this file**
 - Multiple Linear Regression.
 - Gradient Descent in practice.
-**See Python files to understand machine learning code**
 ## Multiple Linear Regression
 *See Vectorization.py for code*
 - Linear Regression with multiple features
@@ -36,3 +36,4 @@
 **Example**
 - Vectors W and d.
 - W = W - (0.1) * d
+- ![Alt text](image-6.png)

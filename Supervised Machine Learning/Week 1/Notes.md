@@ -1,4 +1,8 @@
 # Supervised vs. Unsupervised Machine Learning
+**Topics covered in this file**
+- Supervised vs. Unsupervised Machine Learning
+- Regression Model
+- Train a model with gradient descent
 
 **See Python files to understand machine learning code**
 

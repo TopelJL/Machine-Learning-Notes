@@ -39,6 +39,7 @@
 - ![Alt text](image-6.png)
 
 #### Gradient desent for multiple linear regression
+*See GradientVec.py for code*
 - Review so far.
 - ![Alt text](image-7.png)
 - Gradient descent with multiple features.

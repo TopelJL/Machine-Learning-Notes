@@ -74,7 +74,7 @@ def compute_gradient(X, y, w, b):
         for j in range(n):                         
             dj_dw[j] = dj_dw[j] + err * X[i, j]    
         dj_db = dj_db + err                        
-    dj_dw = dj_dw / m                                
+    dj_dw = dj_dw / m
     dj_db = dj_db / m                                
         
     return dj_db, dj_dw

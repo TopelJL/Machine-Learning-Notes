@@ -47,3 +47,40 @@
 - Alternative to gradient descent, works only with linear regression.
     - Solve for w and b without iterations
     - ![Alt text](image-9.png)
+
+## Gradient Descent in practice
+#### Feature Scaling
+- *Enables Gradient descent to run much faster*
+- ![Alt text](image-10.png)
+- Notice that X1 has a large value range and X2 has a small value range.
+- The model picks a small value for W1 and a larger value for W2.
+- ![Alt text](image-11.png)
+- We scale features so gradient descent doesnt bounce back and forth all the time.
+- Notice X1 and X2 now both range from 0 to 1.
+- Makes the countour plot look more like circles.
+- ![Alt text](image-12.png)
+- **Implement feature scaling**
+- To scale a feature (3 ways):
+    - Divide by the maximum
+        - ![Alt text](image-13.png)
+    - Mean Normalization.
+        - Find the average of X1, then perform (X1 - average) / (Max - Min)
+        - ![Alt text](image-14.png)
+    - Z-Score normalization
+        - Calculate Mean and standard deviation
+        - Then perform (X1 - average) / (standard deviation)
+        - ![Alt text](image-15.png)
+- Aim to have to scale from range -1 to 1
+- ![Alt text](image-16.png)
+#### Checking gradient descent is working correctly
+- Plot the cost function against every iteration.
+- If J(w, b) decreases after every iteration then it is working properly.
+- ![Alt text](image-17.png)
+- Once curve no longer decreses, then it has converged.
+#### Choosing the learning rate
+- If gradient descent isnt working, set the α (Learning rate) to a very low number and that should work.
+    - If this doesn't work, then there is most likely a bug in the code.
+    - Be carefult not to make it too small, as if its too small gd takes a long time to converge.
+    - A good practice is to start small and increase the size by 3x.
+    - ![Alt text](image-19.png)
+- ![Alt text](image-18.png)

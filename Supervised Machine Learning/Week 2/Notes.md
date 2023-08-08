@@ -49,6 +49,7 @@
     - ![Alt text](image-9.png)
 
 ## Gradient Descent in practice
+**
 #### Feature Scaling
 - *Enables Gradient descent to run much faster*
 - ![Alt text](image-10.png)

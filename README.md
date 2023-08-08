@@ -7,3 +7,6 @@
 
 *Link to OneNote*
 - https://1drv.ms/o/s!AiUtgPFNeNjvhvB6CVsSa-VGRySFQw?e=0SSeXD
+
+**Quick Note**
+- Roughly halfway through my second week of this course i discovered I could download all the labs, and the whole point of coding the labs in here was for documentation and later reference purposes. All labs can be found in the section Coursera code and truthfully will be much easier to follow and understand than my own code.

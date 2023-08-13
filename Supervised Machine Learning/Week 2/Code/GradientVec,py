@@ -59,7 +59,7 @@ def compute_cost(X, y, w, b):
         cost = cost + (f_wb_i - y[i])**2       #scalar
     cost = cost / (2 * m)                      #scalar    
     return cost
-
+   
 # Compute and display cost using our pre-chosen optimal parameters. 
 cost = compute_cost(X_train, Y_train, w_init, b_init)
 print(f'Cost at optimal w : {cost}')

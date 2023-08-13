@@ -3,6 +3,9 @@
 - **Topics covered in this file**
 - Multiple Linear Regression.
 - Gradient Descent in practice.
+
+## Week 2
+
 ## Multiple Linear Regression
 *See Vectorization.py for code*
 - Linear Regression with multiple features
@@ -85,3 +88,16 @@
     - A good practice is to start small and increase the size by 3x.
     - ![Alt text](image-19.png)
 - ![Alt text](image-18.png)
+#### Feature Engineering
+- Example:
+    - X1 = Frontage
+    - X2 = Depth
+    - f(x) = W1X1 +W2X2 + b
+    **Area is a better feature**
+    - Create new feature X3 = X1*X2
+    - ![Alt text](image-20.png)
+#### Polynomial Regression
+**Feature engineering that lets you fit curves**
+- Implementing this technique, a key note is feature scaling becomes increasingly important.
+- ![Alt text](image-21.png)
+- To leaarn what features to use, refer to the second course.

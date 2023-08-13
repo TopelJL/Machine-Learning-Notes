@@ -4,7 +4,7 @@
 - Multiple Linear Regression.
 - Gradient Descent in practice.
 
-## Week 2
+## Week 1
 
 ## Multiple Linear Regression
 *See Vectorization.py for code*

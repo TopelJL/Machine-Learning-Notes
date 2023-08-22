@@ -45,3 +45,15 @@
 - ![Alt text](image-12.png)
 - ![Alt text](image-13.png)
 ### Overfitting
+- Linear regression
+    - ![Alt text](image-14.png)
+- Logistic regression
+    - ![Alt text](image-15.png)
+- ![Alt text](image-16.png)
+#### Cost function for regularization
+- ![Alt text](image-17.png)
+#### Regularized linear regression
+- ![Alt text](image-18.png)
+- ![Alt text](image-19.png)
+#### Regularized logistic regression
+- ![Alt text](image-20.png)

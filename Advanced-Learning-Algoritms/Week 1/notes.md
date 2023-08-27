@@ -27,6 +27,9 @@
                 - how many neurons in each layer
                 *learn later tips for choosing*
     - Recognizing images
+        - ![Alt text](image-4.png)
+        - ![Alt text](image-5.png)
+        - ![Alt text](image-6.png)
 - Neural network model
 - Tensorflow implementation
 - Neural Network implementation in python

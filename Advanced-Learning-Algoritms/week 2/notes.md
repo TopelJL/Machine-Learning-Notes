@@ -30,6 +30,36 @@
         - Summary:
             - ![Alt text](image-9.png)
 - Multiclass Classification
+    - MultiClass
+        - Classification, where y can take on a small number of discrete values
+            - example: 1 - 10.
+        - ![Alt text](image-10.png)
+    - Softmax
+        - Can take on multiple outputs, in this example 4 is just for fun
+            - ![Alt text](image-12.png)
+            - ![Alt text](image-13.png)
+    - Softmax implementation
+        - ![Alt text](image-14.png)
+        - This code works, but theres a better version
+            - ![Alt text](image-15.png)
+    - Improved Softmax implementation
+        - Improved logistic regression
+            - ![Alt text](image-16.png)
+            - ![Alt text](image-18.png)
+        - Improved softmax
+            - ![Alt text](image-17.png)
+            - ![Alt text](image-19.png)
 - Additional Neural Network Concepts
-- Back Propagation
+    - Advanced optimization
+        - Adam optimization is faster than gradient descent.
+            - ![Alt text](image-20.png)
+            - ![Alt text](image-21.png)
+            - ![Alt text](image-22.png)
+    - Additional layer types
+        - Dense Layer
+            - ![Alt text](image-23.png)
+        - Convolutional Layer
+            - ![Alt text](image-24.png)
+        - Convolutional Neural Network
+            - ![Alt text](image-25.png)
 *practice lab Neural Network Training - see coursera code*

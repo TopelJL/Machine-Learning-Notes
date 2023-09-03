@@ -1,7 +1,35 @@
 ## (week 2) Neural Network Training
 - Neural Network Training
+    - TensorFlow Implementation
+        - Step 1: how to compute forward inference.
+        - Step 2: Compiles model using specific loss function.
+        - Step 3: Train the model.
+        - ![Alt text](image.png)
+    - Training Details
+        - Model Training Steps for logistic regression and Neural Network.
+            - ![Alt text](image-1.png)
+        - Step 1: Create the model
+            - ![Alt text](image-2.png)
+        - Step 2: Loss and Cost functions
+            - ![Alt text](image-3.png)
+        - Step 3: Gradient Descent
+            - ![Alt text](image-4.png)
 - Activation Functions
+    - Alternatives to sigmoid function:
+        - Rectified Linear Unit (RELU)
+            - ![Alt text](image-5.png)
+        - ![Alt text](image-6.png)
+    - Choosing Activation functions:
+        - Output Layer:
+            - Binary classification problem, use sigmoid
+            - Regression, use linear activation function
+            - ![Alt text](image-7.png)
+        - Hidden Layer:
+            - Use relu most frequently.
+            - ![Alt text](image-8.png)
+        - Summary:
+            - ![Alt text](image-9.png)
 - Multiclass Classification
 - Additional Neural Network Concepts
 - Back Propagation
-*practice lab Neural Network Trainingg - see coursera code*
+*practice lab Neural Network Training - see coursera code*

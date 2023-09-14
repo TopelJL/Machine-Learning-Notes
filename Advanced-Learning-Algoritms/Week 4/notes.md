@@ -9,6 +9,20 @@
             - Maximize purity (entropy)
         - Decision 2: When do you stop spliiting
             - ![Alt text](image-3.png)
-        
 - Decision Tree Learning
+    - Measuring purity
+        - Entropy: measure of purity of data
+        - ![Alt text](image-4.png)
+        - ![Alt text](image-5.png)
+    - Choosing a split: information gain
+        - ![Alt text](image-6.png)
+        - ![Alt text](image-7.png)
+    - Putting it together
+        - ![Alt text](image-8.png)
+        - ![Alt text](image-9.png)
+    - Using one hot encoding of categorical features
+        - ![Alt text](image-10.png)
+    - Continous valued features
+        - ![Alt text](image-11.png)
 - Tree Ensembles
+    - Multiple decision trees

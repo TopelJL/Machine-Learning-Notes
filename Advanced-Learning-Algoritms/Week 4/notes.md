@@ -26,3 +26,19 @@
         - ![Alt text](image-11.png)
 - Tree Ensembles
     - Multiple decision trees
+        - ![Alt text](image-12.png)
+    - Sampling with replacement
+        - Technique using statistics to choose different types of decision trees
+        - ![Alt text](image-13.png)
+        - ![Alt text](image-14.png)
+    - Random forest algorithm
+        - ![Alt text](image-15.png)
+        - ![Alt text](image-16.png)
+    - XGBoost
+        - Most commonly used algorithm today
+        - ![Alt text](image-17.png)
+        - ![Alt text](image-18.png)
+        - Code implementation:
+            - ![Alt text](image-19.png)
+    - When to use decision trees
+        - ![Alt text](image-20.png)
